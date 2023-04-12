@@ -224,7 +224,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: odoo-community.k8s.onestein.eu
+  - host: test-anjeel.k8s.onestein.eu
     http:
       paths:
       - backend:
@@ -243,5 +243,5 @@ spec:
         pathType: ImplementationSpecific
   tls:
   - hosts:
-    - odoo-community.k8s.onestein.eu
-    secretName: odoo-community.k8s.onestein.eu-tls
+    - test-anjeel.k8s.onestein.eu
+    secretName: test-anjeel.k8s.onestein.eu-tls
